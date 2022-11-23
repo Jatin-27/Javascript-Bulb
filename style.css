@@ -1,0 +1,45 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: beige;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh
+}
+
+.off{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(255, 0, 55);
+    color: white;
+    padding: 10px 15px;
+    width: 198px;
+    border: none;
+    transition: 0.5s;
+}
+
+.on{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(60, 146, 13);
+    color: white;
+    padding: 10px 15px;
+    width: 198px;
+    border: none;
+    transition: 0.5s;
+}
+
+.on:hover{
+    background-color: rgb(46, 111, 12);
+    cursor: pointer;
+}
+
+.off:hover{
+    background-color: rgb(180, 9, 46);
+    cursor: pointer;
+}
